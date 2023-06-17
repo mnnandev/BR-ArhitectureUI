@@ -1,0 +1,126 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.heading {
+  border: 1px solid #000;
+  justify-content: space-between;
+  width: 40%;
+}
+.navbar h1:hover {
+  color: #000!important;
+  background-color: #ccc!important;
+}
+ .moon {
+  letter-spacing: 5px;
+ }
+.moon1 h1 {
+  font-size: 17px;
+  font-weight: 400;
+}
+.moon2 {
+  height: 800px;
+  width: 100%;
+  background-image: url(./architect.jpg);
+  background-size: 100% 100%;
+}
+.moon2 h1 {
+  z-index: 0;
+}
+.moon2 span {
+  opacity: 0.7;
+}
+.about {
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+.john {
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.ceo {
+  font-family: Verdana,sans-serif;
+  opacity: 0.8;
+}
+.pg {
+  font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.contact {
+  font-family: verdana,sans-serif;
+  font-size: 18px;
+  background-color: #f1f1f1;
+  padding-left: 140px;
+}
+.contact:hover {
+  background-color: #ccc!important;
+  cursor: pointer;
+}
+.cnt {
+  width: 97%;
+}
+.pg3 {
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.inpt{
+width: 98% !important;
+height: 40px;
+}
+.snd {
+  background-color: #000;
+  color: white;
+  font-size: 15px;
+  width: 11% !important;
+}
+.snd:hover {
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+}
+.bg-img {
+  background-image: url(./image/map.jpg);
+  height: 700px;
+  width: 97%;
+}
+
+/* Custom classes fro exp.html file */
+
+.custom-container {
+  width: 1170px;
+  margin:0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-space-between {
+  display: flex;
+  justify-content: space-around;
+}
+
+.f-center {
+  display: flex;
+  justify-content: center;
+}
+
+  .cp-r10 {
+    padding-right: 10px;
+  }
+
+@media screen and (max-width: 768px) {
+  .custom-container {
+    width: 720px;
+    margin:0 auto;
+  }
+  .cp-r10 {
+    padding-right: 5px;
+    font-size: 18px;
+  }
+}
+
+
